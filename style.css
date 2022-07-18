@@ -99,3 +99,14 @@ img {
 .container p {
     margin: 10px 5px;
 }
+
+@media only screen and (max-width: 800px) {
+    img {
+        display: none;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
