@@ -123,6 +123,28 @@ img {
     font-size: 22px;
 }
 
+.sign-up-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20% 5em;
+    border-radius: .2em;
+    padding: 2em;
+    color: #e5e7eb;
+}
+
+.sign-up-headline {
+    font-weight: 700;
+}
+
+.sign-up-information {
+    font-size: 14px;
+}
+
+.sign-up-button {
+    border: 2px solid white;
+}
 @media only screen and (max-width: 800px) {
     * {
         max-height: none;
