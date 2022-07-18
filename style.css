@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 * {
     font-family: sans-serif;
@@ -99,8 +99,35 @@ img {
 .container p {
     margin: 10px 5px;
 }
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 7.5% 25%;
+    background-color: #e5e7eb;
+    margin: 5em 0;
+}
+
+/*font-weight: 300; doesn't seem to display correctly*/
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.signature {
+    font-weight: 700;
+    font-size: 22px;
+}
 
 @media only screen and (max-width: 800px) {
+    * {
+        max-height: none;
+
+    }
     img {
         display: none;
     }
@@ -108,5 +135,9 @@ img {
     header {
         flex-direction: column;
         align-items: center;
+    }
+
+    .quote-container {
+        padding: 5em 2em;
     }
 }
